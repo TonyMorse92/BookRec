@@ -4,7 +4,7 @@
 import requests
 
 def get_author_works(author_id: str, num_works: int) -> dict:
-    url = f"https://openlibrary.org/authors/{author_id}.json?limit={num_works}" 
+    url = f"https://openlibrary.org/authors/{author_id}/works.json?limit={num_works}" 
     response = requests.get(url) 
     return response.json()
 
