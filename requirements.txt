@@ -1,0 +1,20 @@
+# Get the website with requests
+requests
+
+# For parsing HTML
+beautifulsoup4
+
+# Notebooks for scratchwork
+notebook
+
+# Packages for data analysis that I will eventually get to
+numpy
+matplotlib
+scipy
+pandas
+joblib
+scikit-image
+scikit-learn
+
+# Web framework.
+fastapi[standard]
